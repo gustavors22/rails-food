@@ -91,7 +91,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_001211) do
   create_table "restaurants", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.string "name"
     t.text "descripton"
-    t.integer "status"
     t.float "delivery_tax"
     t.string "city"
     t.string "neighborhood"

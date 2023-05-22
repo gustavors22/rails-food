@@ -3,7 +3,7 @@ class Restaurant < ApplicationRecord
   has_many :product_categories
   has_many :orders
 
-  validates :name, :delivery_tax, :city, :street, :neighborhood, :number, presence: true
+  validates :name, :description, :delivery_tax, :city, :street, :neighborhood, :number, presence: true
 
   has_one_attached :image
 end
